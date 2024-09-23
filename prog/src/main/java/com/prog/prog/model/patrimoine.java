@@ -1,8 +1,8 @@
 package com.prog.prog.model;
 import lombok.ToString;
 import java.time.LocalDateTime;
-public class Employee {
-    private String possesseur,
+public class Patrimoine  {
+    private String possesseur;
     private LocalDatTime derniereModification;
 
     public String getPossesseur(){
