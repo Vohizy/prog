@@ -1,7 +1,7 @@
-package com.prog.prog;.model;
+package com.prog.prog.model;
 import lombok.ToString;
 import java.time.LocalDateTime;
-public class Employee implements Serializable {
+public class Employee {
     private String possesseur,
     private LocalDatTime derniereModification;
 
