@@ -1,5 +1,6 @@
 package com.prog.prog.service;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.prog.prog.*
 
 import java.io.IOException;
 import java.nio.file.*;
@@ -11,7 +12,7 @@ public class PatrimoineService{
     private static final String FilePath = 'patrimoine.json';
     private ObjectMapper objectMapper = new ObjectMapper();
 
-    public Map<STRIG,Patrimoine> loadPatrimoines()throws IOException{
+    public Map<String,Patrimoine> loadPatrimoines()throws IOException{
         if(!Files.exists(Pats.get(FilePath))){
             return new HasMap<>();
         }
